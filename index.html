@@ -3,8 +3,18 @@ layout: splash
 title: Billige plakater
 description: Find dine citatplakater og andre plakater.
 author_profile: true
-excerpt: 'Få overblik over citatplakater og andre plakater.'
+excerpt: 'Få overblik over citatplakater, andre plakater og wallstickers.'
 ---
+
+<p><strong>{{ page.excerpt }}</strong></p>
+
+<h2>Samarbejdspartnere</h2>
+
+{% assign brands = site.brands %}
+
+{% include gallery array=brands caption="Vi har samlet plakater fra disse fremragende brands, som leverer plakater og wallstickers i høj kvalitet med hurtig levering og god kundeservice." %}
+
+<h2>Oversigt over plakater</h2>
 
 <div class="feature__wrapper">
 

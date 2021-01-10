@@ -1,8 +1,12 @@
 # main links
 main:
+  - title: "Tilbud"
+    url: /plakater-udsalg-tilbud/
   - title: "Blog"
     url: /blog/
   - title: "Citatplakat.dk"
     url: /citatplakat/
   - title: "Dialægt"
     url: /dialaegt/
+  - title: "Wallstickerland"
+    url: /wallstickerland/

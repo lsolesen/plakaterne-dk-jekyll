@@ -80,17 +80,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lars Olesen"
-  avatar           : "/assets/images/authors/lars-olesen.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Vældig interesseret i plakater og citater."
-  location         : "Vejle"
+  name             : "Billige plakater"
+  avatar           : "/android-chrome-192x192.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Vældig interesseret i plakater og citater. Vi sælger ikke plakaterne selv, men anbefaler dem. Links er reklamelinks, og vi får en lille kommision, hvis du vælger at købe plakaterne. Det giver os mulighed for at drive websitet."
   links            :
     - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:lsolesen@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://motionsplan.dk/"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://motionsplan.dk/"
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
 #      url: "https://twitter.com/lsolesen"
@@ -100,8 +99,6 @@ author:
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/larssolesen"
-
-
 
 # Reading Files
 include:
@@ -264,10 +261,8 @@ defaults:
       type: brands
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      listen_time: false
-      video_time: false
-      comments: true
+      author_profile: false
+      read_time: false
+      comments: false
       share: true
       related: true

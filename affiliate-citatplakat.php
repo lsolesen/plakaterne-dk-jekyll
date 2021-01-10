@@ -28,6 +28,9 @@ function remove_characters($string) {
     $string = str_replace('Ã', 'É', $string);
     $string = str_replace('Ãª', 'ê', $string);
     $string = str_replace('AÌ', 'Å', $string);
+    $string = str_replace('â', '', $string);
+    $string = str_replace('â', '', $string);
+    $string = str_replace('Â ', '', $string);
     
     $string = str_replace('"', '', $string);
     return $string;
@@ -64,6 +67,7 @@ function write_products($file, $xml, $search = '') {
         $product[$i]['price'] = $p->nypris;
         $product[$i]['old_price'] = $p->glpris;        
         $product[$i]['in_stock'] = $p->lagerantal;
+        $product[$i]['id'] = $p->produktid;
         
         if ($p->nypris < $p->glpris) {
             $product[$i]['discounted'] = 'true';
@@ -91,7 +95,10 @@ function write_products($file, $xml, $search = '') {
   price: ' . $p['price']. '
   old_price: ' . $p['old_price']. '
   discounted: ' . $p['discounted'] . '
+  id: "' . $p['id']. '"
 ';
+//  excerpt: "' . $p['excerpt']. '"
+
     }
     // Open the file to get existing content
     $current = file_get_contents($file);
