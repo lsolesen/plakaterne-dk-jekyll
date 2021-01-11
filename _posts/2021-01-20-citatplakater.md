@@ -1,12 +1,12 @@
 ---
-title: "Citatplakater: Plakater med citater"
+title: &title "Citatplakater: Plakater med citater"
 permalink: /citatplakater-plakater-citater/
 language: da
-#header:
-#  overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
-#  caption: Beregn din fedtprocent ud fra højde og vægt.
-#  alt: Photo by i yunmai on Unsplash
-#  teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+header:
+  overlay_image: https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  caption: *title
+  alt: Photo by i yunmai on Unsplash
+  teaser: https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
 category:
   - Plakater
 tags:

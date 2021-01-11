@@ -1,12 +1,12 @@
 ---
-title: "Cykelplakater: Plakater til cykelrytteren"
+title: &title "Cykelplakater: Plakater til cykelrytteren"
 permalink: /cykelrytter-cykling-plakater/
 language: da
-#header:
-#  overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
-#  caption: Beregn din fedtprocent ud fra højde og vægt.
-#  alt: Photo by i yunmai on Unsplash
-#  teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+header:
+  overlay_image: https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1908&q=80
+  caption: *title
+  alt: Photo by i yunmai on Unsplash
+  teaser: https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
 category:
   - Plakater
 tags:

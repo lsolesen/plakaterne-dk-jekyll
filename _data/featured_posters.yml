@@ -8,3 +8,25 @@
   old_price: 249.00
   discounted: false
   id: "33220854"
+- image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Yogastillinger-PR10039.png"
+  url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/yoga-poses-yoga-plakat/"
+  title: "Yoga poses - Yoga plakat"
+  vendor: "Citatplakat.dk"
+  category: "Plakater > Plakater til soveværelset > Yoga plakater"
+  price: 129.00
+  old_price: 129.00
+  discounted: false
+  id: "54298"
+- image_path: "https://www.wallstickerland.dk/media/catalog/product/t/h/the-5-tibetan-rites-danish.jpg"
+  url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/de-5-tibetanere-wallsticker"
+  title: "Wallsticker med De 5 tibetanere"
+  alt: "Wallsticker med De 5 tibetanere"
+  excerpt: "Wallstickerland har en enkel wallsticker med De 5 tibetanere, som er rigtig let at sætte op. Du kan få et gavekort på 100 kroner, hvis du [tilmelder dig her](http://gavekort.wallstickerland.dk/gratis) først."
+  btn_label: "Tjek prisen*"
+  btn_class: "btn--warning"
+  vendor: "Wallstickerland"
+  category: "2334"
+  price: 199.00
+  old_price: 
+  discounted: false
+  id: "549"
