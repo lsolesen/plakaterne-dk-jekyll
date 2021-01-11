@@ -74,8 +74,8 @@ search: true
 # Analytics
 analytics:
   provider               : false # "google-universal" # false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : "UA-9167931-2"
+#  google:
+#    tracking_id          : "UA-9167931-2"
 
 
 # Site Author
