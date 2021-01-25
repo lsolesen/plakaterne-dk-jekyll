@@ -15,6 +15,10 @@ last_modified_at: 2020-02-11T23:14:14Z
 toc: true
 ---
 
+Her kan du finde cykelplakater, der passer godt til cykelrytteren.
+
+Hvis du er interesseret i at læse mere om [cykling og cykelruter](https://www.cykel-ruter.dk/), hvor du også kan finde [det rigtige cykelkort til din cykelferie i Danmark](https://www.cykel-ruter.dk/cykelkort/).
+
 {% assign feature_id = '33220854' %}
 {% assign poster = site.data.featured_posters | where_exp: "item", "item.id == feature_id" %}
 
