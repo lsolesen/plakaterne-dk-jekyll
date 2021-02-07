@@ -1,20 +1,23 @@
 <?php
 
-// Wallsticker
-$citatplakat = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=71238&feedid=1523';
+$apuls = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=46187&feedid=637';
 $search = '';
 
-$dialaegt = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=71049&feedid=1519';
+$proshop = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=67757&feedid=1399';
 
-$wallstickerland = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=44221&feedid=562';
+$iformsupport = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=70880&feedid=1517';
 
-$file = dirname(__DIR__) . '/billigeplakater-dk-jekyll/_data/posters.yml';
+$fitnessshoppen = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=74933&feedid=1680';
+
+$fitnesssupply = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=77299&feedid=1798';
+
+$file = dirname(__DIR__) . '/_data/treadmill.yml';
 unlink($file);
 fopen($file, 'a');
 
-write_products($file, $citatplakat);
-write_products($file, $dialaegt);
-write_products($file, $wallstickerland);
+write_products($file, $apuls);
+write_products($file, $fitnesshoppen);
+write_products($file, $fitnesssupply);
 
 function remove_characters($string) {
     $string = str_replace('eÌ', 'è', $string);

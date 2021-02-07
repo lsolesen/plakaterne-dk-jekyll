@@ -11,6 +11,8 @@ minimal_mistakes_skin:   "default" # "air", "aqua", "contrast", "dark", "dirt", 
 # Jekyll specific
 future: true
 
+ads: false
+
 # Site Settings
 locale                   : "da"
 title                    : "Plakaterne.dk"
