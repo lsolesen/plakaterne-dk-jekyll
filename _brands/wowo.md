@@ -29,6 +29,6 @@ Koden `10wowo` giver 10% rabat på alt. Gælder som minimum indtil 01/07-22.
 
 ## Plakater fra {{ page.title }}
 
-{% assign posters = site.data.posters | where_exp: "item", "item.vendor contains 'Wowo'" %}
+{% assign posters = site.data.posters | where_exp: "item", "item.vendor contains 'wowo.dk'" %}
 
 {% include posters array=posters %}
