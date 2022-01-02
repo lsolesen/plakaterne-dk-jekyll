@@ -5,6 +5,14 @@ $baobabshop = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&b
 $bysampedro = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=67036&feedid=1364';
 $citatplakat = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=71238&feedid=1523';
 $dialaegt = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=71049&feedid=1519';
+$johnnykristensen = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=85283&feedid=2100';
+$medkant= 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=78008&feedid=1820';
+$plakatdyr = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=76901&feedid=1772';
+$plakatsport = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=76794&feedid=1769';
+$simonholst = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=85288&feedid=2101';
+$unikplakat = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=84816&feedid=2080';
+$wallamigo = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=75389&feedid=1704';
+$wowo = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=90741&feedid=2344';
 
 $search = '';
 
@@ -14,6 +22,7 @@ fopen($file, 'a');
 
 write_products($file, $citatplakat);
 write_products($file, $dialaegt);
+write_products($file, $wowo);
 
 function remove_characters($string) {
     $string = str_replace('eÌ', 'è', $string);

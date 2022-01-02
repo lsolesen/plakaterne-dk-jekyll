@@ -6,5 +6,7 @@ main:
     url: /citatplakat/
   - title: "Dialægt"
     url: /dialaegt/
+  - title: "Wowo"
+    url: /wowo/
   - title: "Blog"
     url: /blog/
