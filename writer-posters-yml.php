@@ -1,23 +1,19 @@
 <?php
 
-$apuls = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=46187&feedid=637';
+$artsy_fartsy = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=82707&feedid=1995';
+$baobabshop = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=88356&feedid=2210';
+$bysampedro = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=67036&feedid=1364';
+$citatplakat = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=71238&feedid=1523';
+$dialaegt = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=71049&feedid=1519';
+
 $search = '';
 
-$proshop = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=67757&feedid=1399';
-
-$iformsupport = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=70880&feedid=1517';
-
-$fitnessshoppen = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=74933&feedid=1680';
-
-$fitnesssupply = 'https://www.partner-ads.com/dk/feed_udlaes2.php?partnerid=28187&bannerid=77299&feedid=1798';
-
-$file = dirname(__DIR__) . '/_data/treadmill.yml';
+$file = './_data/posters.yml';
 unlink($file);
 fopen($file, 'a');
 
-write_products($file, $apuls);
-write_products($file, $fitnesshoppen);
-write_products($file, $fitnesssupply);
+write_products($file, $citatplakat);
+write_products($file, $dialaegt);
 
 function remove_characters($string) {
     $string = str_replace('eÌ', 'è', $string);
@@ -99,6 +95,7 @@ function write_products($file, $xml, $search = '') {
   old_price: ' . $p['old_price']. '
   discounted: ' . $p['discounted'] . '
   id: "' . $p['id']. '"
+  rel: sponsored nofollow noopener
 ';
 //  excerpt: "' . $p['excerpt']. '"
 
