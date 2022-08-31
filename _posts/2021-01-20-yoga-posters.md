@@ -28,9 +28,6 @@ Jeg synes denne plakat med alle yogaøvelserne og yogastillingerne er ret intere
 
 Jeg har også udvalgt denne wallsticker, som viser de fem tibetanere, som er en samling af oldgamle yogastillinger, der lover evig ungdom. Du kan læse en grundig beskrivelse af [De fem tibetanere på motionsplan.dk](https://www.motionsplan.dk/artikel/de-fem-tibetanere/).
 
-{% assign feature_id = '549' %}
-{% assign poster = site.data.featured_posters | where_exp: "item", "item.id == feature_id" %}
-
 {% include poster array=poster type="right" %}
 
 ## Alle plakater med yoga og yogaøvelser

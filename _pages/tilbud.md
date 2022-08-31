@@ -11,8 +11,9 @@ language: da
 category:
   - Plakater
 tags:
-  - anatomi
-last_modified_at: 2020-02-11T23:14:14Z
+  - tilbud
+  - udsalg
+last_modified_at: 2021-12-11T23:14:14Z
 toc: true
 author_profile: true
 ---

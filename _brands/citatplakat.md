@@ -14,10 +14,11 @@ header:
   actions:
     - url: *affiliate_url
       label: "Besøg Citatplakat"
+      rel: sponsored nofollow noopener
 category:
   - Plakater
 tags:
-  - anatomi
+  - brand
 last_modified_at: 2020-02-11T23:14:14Z
 toc: true
 ---
